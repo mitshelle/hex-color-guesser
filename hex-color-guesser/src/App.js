@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <header className="heads">Guess the color!</header>
+        <header className="heads">Click on the correct answer!</header>
         <div className="guess-me" style={{ background: color }}></div>
         {answers.map(answer => (
           <button onClick={() => handleAnswerClicked(answer)} key={answer}>{answer}</button>
